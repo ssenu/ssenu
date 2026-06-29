@@ -36,26 +36,6 @@
 
 <br/>
 
-### Recent
-
-<!-- RECENT:START -->
-
-| Project | Description | Language |
-| :-- | :-- | :--: |
-| [MyCode](https://github.com/ssenu/MyCode) | — | C |
-| [priceCalculator](https://github.com/ssenu/priceCalculator) | — | Python |
-
-<!-- RECENT:END -->
-
-<br/>
-
-### Stats
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ssenu&show_icons=true&hide_border=true&bg_color=00000000&title_color=B5A8C9&text_color=9A93A8&icon_color=A8BFC9&include_all_commits=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ssenu&layout=compact&hide_border=true&bg_color=00000000&title_color=B5A8C9&text_color=9A93A8" />
-
-<br/>
-
 ### Contact
 
 [![Email](https://img.shields.io/badge/cwhappy123@gmail.com-B5A8C9?style=flat-square&logo=gmail&logoColor=4A4458)](mailto:cwhappy123@gmail.com)
