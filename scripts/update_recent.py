@@ -12,7 +12,7 @@ import urllib.request
 
 USER = "ssenu"            # GitHub 사용자명
 # 카드 스타일 (README 통계 카드와 동일한 톤으로 통일)
-CARD_STYLE = "hide_border=true&bg_color=00000000&title_color=9CB080&text_color=618764&icon_color=9CB080"
+CARD_STYLE = "hide_border=true&bg_color=00000000&title_color=B5A8C9&text_color=9A93A8&icon_color=A8BFC9"
 TOP_N = 3                  # 보여줄 프로젝트 개수
 README = "README.md"
 START = "<!-- RECENT:START -->"
