@@ -39,12 +39,12 @@
 ### Recent
 
 <!-- RECENT:START -->
-<a href="https://github.com/ssenu/MyCode">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssenu&repo=MyCode&hide_border=true&bg_color=00000000&title_color=B5A8C9&text_color=9A93A8&icon_color=A8BFC9" />
-</a>
-<a href="https://github.com/ssenu/priceCalculator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssenu&repo=priceCalculator&hide_border=true&bg_color=00000000&title_color=B5A8C9&text_color=9A93A8&icon_color=A8BFC9" />
-</a>
+
+| Project | Description | Language |
+| :-- | :-- | :--: |
+| [MyCode](https://github.com/ssenu/MyCode) | — | C |
+| [priceCalculator](https://github.com/ssenu/priceCalculator) | — | Python |
+
 <!-- RECENT:END -->
 
 <br/>

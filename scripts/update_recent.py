@@ -11,8 +11,6 @@ import re
 import urllib.request
 
 USER = "ssenu"            # GitHub 사용자명
-# 카드 스타일 (README 통계 카드와 동일한 톤으로 통일)
-CARD_STYLE = "hide_border=true&bg_color=00000000&title_color=B5A8C9&text_color=9A93A8&icon_color=A8BFC9"
 TOP_N = 3                  # 보여줄 프로젝트 개수
 README = "README.md"
 START = "<!-- RECENT:START -->"
@@ -40,22 +38,20 @@ def fetch_repos():
 
 
 def build_block(repos):
-    """레포 목록을 핀 카드 HTML 블록으로 만든다."""
+    """레포 목록을 마크다운 표로 만든다 (외부 서버 의존 없음)."""
     # 프로필 레포(ssenu/ssenu) 자신과 포크는 제외
     repos = [r for r in repos if r["name"].lower() != USER.lower() and not r["fork"]]
     top = repos[:TOP_N]
     if not top:
         return "_아직 표시할 프로젝트가 없습니다._"
-    cards = []
+    lines = ["| Project | Description | Language |", "| :-- | :-- | :--: |"]
     for repo in top:
         name = repo["name"]
-        cards.append(
-            f'<a href="{repo["html_url"]}">\n'
-            f'  <img src="https://github-readme-stats.vercel.app/api/pin/'
-            f'?username={USER}&repo={name}&{CARD_STYLE}" />\n'
-            f"</a>"
-        )
-    return "\n".join(cards)
+        url = repo["html_url"]
+        desc = (repo.get("description") or "—").replace("|", "\\|")
+        lang = repo.get("language") or "—"
+        lines.append(f"| [{name}]({url}) | {desc} | {lang} |")
+    return "\n".join(lines)
 
 
 def main():
@@ -66,7 +62,7 @@ def main():
         content = f.read()
 
     pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
-    replacement = f"{START}\n{block}\n{END}"
+    replacement = f"{START}\n\n{block}\n\n{END}"
     new_content = pattern.sub(replacement, content)
 
     if new_content != content:
