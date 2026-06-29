@@ -4,6 +4,8 @@
 
 # ssenu
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=1000&color=4078C0&vCenter=true&width=440&lines=student+%C2%B7+always+exploring;embedded+%C2%B7+backend+%C2%B7+python" alt="subtitle" />
+
 여러 방면을 공부하는 학생입니다.<br/>
 특정 분야에 머무르기보다, 그때그때 관심이 생기는 것을 골라 공부합니다.<br/>
 요즘은 임베디드, 백엔드 웹, Python 프로그램에 관심을 두고 있습니다.
