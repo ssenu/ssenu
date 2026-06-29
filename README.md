@@ -17,12 +17,15 @@
 ![Python](https://img.shields.io/badge/Python-B5A8C9?style=flat-square&logo=python&logoColor=4A4458)
 ![C++](https://img.shields.io/badge/C++-A8BFC9?style=flat-square&logo=cplusplus&logoColor=4A4458)
 ![C](https://img.shields.io/badge/C-ADC9B8?style=flat-square&logo=c&logoColor=4A4458)
+![SQL](https://img.shields.io/badge/SQL-C9BBA8?style=flat-square&logo=mysql&logoColor=4A4458)
 
 ### Interests
 
 ![Embedded](https://img.shields.io/badge/Embedded-A8BFC9?style=flat-square&logo=arduino&logoColor=4A4458)
 ![Backend](https://img.shields.io/badge/Backend-B5A8C9?style=flat-square&logo=fastapi&logoColor=4A4458)
 ![Git](https://img.shields.io/badge/Git-C9BBA8?style=flat-square&logo=git&logoColor=4A4458)
+![GitHub](https://img.shields.io/badge/GitHub-ADC9B8?style=flat-square&logo=github&logoColor=4A4458)
+![Linux](https://img.shields.io/badge/Linux-A8BFC9?style=flat-square&logo=linux&logoColor=4A4458)
 
 ### Certifications
 
