@@ -1,10 +1,10 @@
-<div align="right">
-  <img src="https://komarev.com/ghpvc/?username=ssenu&style=flat-square&color=C9BBA8&label=views" alt="views" />
-</div>
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=ssenu&style=flat-square&color=C9BBA8&label=views" alt="views" />
 
 # 박찬우 - ssenu
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=1000&color=9A8FB0&vCenter=true&width=440&lines=student+%C2%B7+always+exploring;embedded+%C2%B7+backend+%C2%B7+python" alt="subtitle" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=1000&color=9A8FB0&center=true&vCenter=true&width=440&lines=student+%C2%B7+always+exploring;embedded+%C2%B7+backend+%C2%B7+python" alt="subtitle" />
 
 아직 여러 방면을 공부하고 있는 학생입니다.<br/>
 특정 분야에 머무르기보다, 관심가는 다양한 분야를 접해보려고 합니다.<br/>
@@ -56,3 +56,5 @@
 ### Contact
 
 [![Email](https://img.shields.io/badge/cwhappy123@gmail.com-B5A8C9?style=flat-square&logo=gmail&logoColor=4A4458)](mailto:cwhappy123@gmail.com)
+
+</div>
