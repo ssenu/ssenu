@@ -11,7 +11,8 @@ import re
 import urllib.request
 
 USER = "ssenu"            # GitHub 사용자명
-THEME = "radical"          # 카드 테마 (README 통계 카드와 통일)
+# 카드 스타일 (README 통계 카드와 동일한 톤으로 통일)
+CARD_STYLE = "hide_border=true&bg_color=00000000&title_color=4078c0&text_color=838383&icon_color=4078c0"
 TOP_N = 3                  # 보여줄 프로젝트 개수
 README = "README.md"
 START = "<!-- RECENT:START -->"
@@ -51,7 +52,7 @@ def build_block(repos):
         cards.append(
             f'<a href="{repo["html_url"]}">\n'
             f'  <img src="https://github-readme-stats.vercel.app/api/pin/'
-            f'?username={USER}&repo={name}&theme={THEME}" />\n'
+            f'?username={USER}&repo={name}&{CARD_STYLE}" />\n'
             f"</a>"
         )
     return "\n".join(cards)
