@@ -35,9 +35,6 @@
 <a href="https://github.com/ssenu/priceCalculator">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssenu&repo=priceCalculator&hide_border=true&bg_color=00000000&title_color=4078c0&text_color=838383&icon_color=4078c0" />
 </a>
-<a href="https://github.com/ssenu/Profile">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssenu&repo=Profile&hide_border=true&bg_color=00000000&title_color=4078c0&text_color=838383&icon_color=4078c0" />
-</a>
 <!-- RECENT:END -->
 
 <br/>
